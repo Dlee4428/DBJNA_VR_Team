@@ -12,5 +12,8 @@ public class Motion : MonoBehaviour
         horizontal -= 2 * Input.GetAxis("Mouse Y");
         vertical += 2 * Input.GetAxis("Mouse X");
         transform.eulerAngles = new Vector3(horizontal, vertical, 0);
+
+        //// VR rotation uncomment when you connect
+        // transform.rotation = OVRInput.GetLocalControllerRotation(OVRInput.Controller.RTrackedRemote);
     }
 }
