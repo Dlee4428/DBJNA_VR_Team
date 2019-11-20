@@ -214,6 +214,7 @@ GameObject:
   - component: {fileID: 7273249489778482503}
   - component: {fileID: 7273249489778482500}
   - component: {fileID: 7273249489778482501}
+  - component: {fileID: 1440610461499034146}
   m_Layer: 0
   m_Name: OVRCameraRig
   m_TagString: Untagged
@@ -339,6 +340,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa3e387a591576e4c8a42ea5795a0951, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1440610461499034146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7273249489800806083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8e7ff1cdf4c4e74db00c3684108bc9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  sortOrder: 20
 --- !u!1 &7273249489800806085
 GameObject:
   m_ObjectHideFlags: 0
