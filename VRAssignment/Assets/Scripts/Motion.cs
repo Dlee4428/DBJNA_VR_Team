@@ -14,6 +14,6 @@ public class Motion : MonoBehaviour
         transform.eulerAngles = new Vector3(horizontal, vertical, 0);
 
         //// VR rotation uncomment when you connect
-        // transform.rotation = OVRInput.GetLocalControllerRotation(OVRInput.Controller.RTrackedRemote);
+       
     }
 }
